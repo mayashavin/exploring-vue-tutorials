@@ -16,7 +16,7 @@
 ---
 # Author
 
-![Maya Shavin](https://res.cloudinary.com/mayashavin/image/upload/w_192,h_192,c_thumb,g_auto,q_auto/v1563702999/mayashavin_1.jpg)
+![Maya Shavin](https://res.cloudinary.com/mayashavin/image/upload/w_192,ar_1:1,c_fill,g_auto/v1563702999/mayashavin_1.jpg)
 
 Maya Shavin
 * [Portfolio](https://mayashavin.com)
