@@ -1,7 +1,7 @@
 <template>
     <div class="card" @click="toggleSelect">
         <h3>{{title}}</h3>
-        <img :src="image" />
+        <img :src="image">
         <p>Selected: {{isSelected}}</p>
     </div>
 </template>
