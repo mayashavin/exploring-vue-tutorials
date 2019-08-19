@@ -6,12 +6,12 @@
 
 <script>
 // @ is an alias to /src
-import PokemonCard from '@/components/PokemonCard.vue';
+import PokemonCard from "@/components/PokemonCard.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    PokemonCard,
-  },
+    PokemonCard
+  }
 };
 </script>
