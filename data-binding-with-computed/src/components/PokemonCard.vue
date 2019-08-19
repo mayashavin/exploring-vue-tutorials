@@ -2,7 +2,7 @@
   <div class="card" @click="toggleSelect">
     <h3>{{ title }}</h3>
     <img :src="image" />
-    <img :src="selectedIcon" class="select-icon"/>
+    <img :src="selectedIcon" class="select-icon" />
   </div>
 </template>
 <script>
@@ -19,20 +19,20 @@ export default {
   methods: {
     toggleSelect() {
       this.isSelected = !this.isSelected;
-    },
-//     selectedIcon() {
-//       return this.isSelected
-//       ? "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137286/ExploringVueJS/check-circle-solid.png"
-//       : "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137284/ExploringVueJS/circle-regular.png";
-//     }
+    }
+    //selectedIcon() {
+    //return this.isSelected
+    //? "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137286/ExploringVueJS/check-circle-solid.png"
+    //: "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137284/ExploringVueJS/circle-regular.png";
+    //}
   },
   computed: {
     selectedIcon() {
-      return this.isSelected
-      ? "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137286/ExploringVueJS/check-circle-solid.png"
-      : "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137284/ExploringVueJS/circle-regular.png";
-    }
-  },
+      return this.isSelected
+        ? "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137286/ExploringVueJS/check-circle-solid.png"
+        : "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137284/ExploringVueJS/circle-regular.png";
+    }
+  }
   // watch: {
   //   isSelected(val) {
   //     console.log(val);
