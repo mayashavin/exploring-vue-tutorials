@@ -7,11 +7,21 @@
 </template>
 <script>
 export default {
+  // props: ["title", "image"],
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    image: {
+      type: String,
+      // required: true,
+      default:
+        "https://res.cloudinary.com/mayashavin/image/upload/w_120,c_scale,q_auto,f_auto/v1590528615/ExploringVueJS/placeholder"
+    }
+  },
   data() {
     return {
-      title: "Sample pokemon",
-      image:
-        "https://res.cloudinary.com/mayashavin/image/upload/v1562279388/pokemons/br5xigetaqosvwf1r1eb.jpg",
       //Flag property to keep track if component is selected
       isSelected: false
     };
@@ -20,11 +30,6 @@ export default {
     toggleSelect() {
       this.isSelected = !this.isSelected;
     }
-    //selectedIcon() {
-    //return this.isSelected
-    //? "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137286/ExploringVueJS/check-circle-solid.png"
-    //: "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137284/ExploringVueJS/circle-regular.png";
-    //}
   },
   computed: {
     selectedIcon() {
@@ -33,11 +38,6 @@ export default {
         : "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137284/ExploringVueJS/circle-regular.png";
     }
   }
-  // watch: {
-  //   isSelected(val) {
-  //     console.log(val);
-  //   }
-  // }
 };
 </script>
 <style scoped lang="scss">
