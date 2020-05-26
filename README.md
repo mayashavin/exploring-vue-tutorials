@@ -4,33 +4,40 @@
 
 > This is the codebase for the tutorial series - Exploring VueJS published in [Ultimate Courses](https://ultimatecourses.com/blog)
 
-## An introduction to VueJS 📖
+## 1. An introduction to VueJS 📖
 
 > In this section, we will go over the core concepts of Vue.js, and how to set up the environment.
 
 * [Article](https://ultimatecourses.com/blog/exploring-vuejs-an-introduction-to-vuejs)
 * [Code](https://github.com/mayashavin/exploring-vue-tutorials/tree/master/1-introduction)
 
-## Creating Components with Vue 🍵
+## 2. Creating Components with Vue 🍵
 
 > We continue diving into the next important topic of VueJS - the Vue instance, Vue component and how to build your first component in our Pokemon app, the Pokemon Card.
 
 * [Article](https://ultimatecourses.com/blog/exploring-vuejs-creating-components-with-vue)
 * [Code](https://github.com/mayashavin/exploring-vue-tutorials/tree/master/2-first-component)
 
-## Data-binding with computed and watcher 👷‍♀️
+## 3. Data-binding with computed and watcher 👷‍♀️
 
 > Our third article of Exploring VueJS series will continue diving into another aspect of data-binding with computed and watch properties in our newly created Vue component - the Pokemon Card.
 
 * [Article](https://ultimatecourses.com/blog/exploring-vuejs-data-binding-with-computed-properties-and-watchers)
 * [Code](https://github.com/mayashavin/exploring-vue-tutorials/tree/master/3-data-binding-with-computed)
 
-## Props and the Vue Devtools 🤓
+## 4. Props and the Vue Devtools 🤓
 
 > We explore the other term - `props` while using our previously created component - the Pokemon Card in our demo application.
 
 * Article - In progress
 * [Code](https://github.com/mayashavin/exploring-vue-tutorials/tree/master/4-data-binding-with-props)
+
+## 5. Conditional statement and list rendering 🗒️
+
+> TBD.
+
+* Article - In progress
+* Code - In progress
 
 ---
 
