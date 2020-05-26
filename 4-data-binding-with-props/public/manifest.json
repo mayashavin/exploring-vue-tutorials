@@ -1,0 +1,20 @@
+{
+  "name": "pokemon-vue-app",
+  "short_name": "pokemon-vue-app",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/mayashavin/image/upload/w_192,h_192,c_scale,q_auto,ar_1:1/v1566132754/jigglypuff.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://res.cloudinary.com/mayashavin/image/upload/w_512,h_512,c_scale,q_auto,ar_1:1/v1566132754/jigglypuff.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4DBA87"
+}
