@@ -1,6 +1,6 @@
 <template>
   <div class="card" @click="toggleSelect">
-    <h3>{{ title }}</h3>
+    <h3>{{ displayTitle }}</h3>
     <img :src="image" />
     <img :src="selectedIcon" class="select-icon" />
   </div>
@@ -36,6 +36,9 @@ export default {
       return this.isSelected
         ? "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137286/ExploringVueJS/check-circle-solid.png"
         : "https://res.cloudinary.com/mayashavin/image/upload/w_24,ar_1:1,c_scale/v1566137284/ExploringVueJS/circle-regular.png";
+    },
+    displayTitle() {
+      return `${this.title.charAt(0).toUpperCase()}${this.title.slice(1)}`;
     }
   }
 };
