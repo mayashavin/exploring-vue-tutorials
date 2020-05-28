@@ -32,9 +32,58 @@
 * Article - In progress
 * [Code](https://github.com/mayashavin/exploring-vue-tutorials/tree/master/4-data-binding-with-props)
 
-## 5. Conditional statement and list rendering 🗒️
+## 5. Dynamic list and conditional data rendering 🗒️
 
-> TBD.
+> In this post of Exploring Vue series, we will learn about how to generate component dynamically with some built-in directives
+
+* Article - In progress
+* [Code](https://github.com/mayashavin/exploring-vue-tutorials/tree/master/5-list-rendering-and-conditional-rendering)
+
+## 6. The power of slot 🏖️
+
+> TBD
+
+* Article - In progress
+* Code - In progress
+
+## 7. Virtual DOM and event listeners 🌎
+
+> TBD
+
+* Article - In progress
+* Code - In progress
+
+## 8. Let's do some routing 🔌
+
+> TBD
+
+* Article - In progress
+* Code - In progress
+
+## 9. Keep the store on with Vuex 🏪
+
+> TBD
+
+* Article - In progress
+* Code - In progress
+
+## 10. Connect your Vue apps with external data through API calls 🚀
+
+> TBD
+
+* Article - In progress
+* Code - In progress
+
+## 11. Empower your app with SEO & PWA 🔖
+
+> TBD
+
+* Article - In progress
+* Code - In progress
+
+## 12. Testing and deploying your app live 🧪
+
+> TBD
 
 * Article - In progress
 * Code - In progress
